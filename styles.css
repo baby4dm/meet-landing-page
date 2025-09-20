@@ -3,9 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-html, body {
-    overflow-x: hidden;
-}
+
 body {
   background-color: #fafafa;
   padding-top: 3rem;
@@ -31,15 +29,15 @@ h2 {
   justify-content: center;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
   margin: 3rem auto;
+  justify-items: center;
 }
 
 .left-avatars,
 .right-avatars {
   height: 10rem;
-  width: auto;
 }
 .hero-section .text-content {
   display: flex;
@@ -64,20 +62,17 @@ h2 {
   font-size: 16px;
   color: #fafafa;
   font-weight: 700;
+  border: none;
+  height: 56px;
+  border-radius: 29px;
 }
 .download-button {
-  border: none;
   background-color: #4d96a9;
-  border-radius: 29px;
   width: 193px;
-  height: 56px;
 }
 .discover-button {
-  border: none;
   background-color: #855fb1;
-  border-radius: 29px;
   width: 161px;
-  height: 56px;
   margin-top: 1rem;
 }
 .page-number {
@@ -95,13 +90,15 @@ h2 {
   gap: 1rem;
   padding-inline: 2rem;
   margin-bottom: 4rem;
-  width: 100vw;
+  margin-inline: auto;
+  width: 100%;
   justify-items: center;
 }
 .group-image {
   border-radius: 0.5rem;
-  height: 144px;
-  width: auto;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
 }
 .main-section .text-content {
   padding: 0 2rem;
