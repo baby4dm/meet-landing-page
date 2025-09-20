@@ -95,6 +95,7 @@ h2 {
   gap: 1rem;
   padding-inline: 2rem;
   margin-bottom: 4rem;
+  width: 100vw;
   justify-items: center;
 }
 .group-image {
